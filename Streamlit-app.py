@@ -4,7 +4,7 @@ from PIL import Image
 import pandas as pd
 
 # Configure PyTesseract path
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Adjust path if needed
+#pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Adjust path if needed
 
 # Function to extract text from image using PyTesseract
 def extract_text_from_image(image):
